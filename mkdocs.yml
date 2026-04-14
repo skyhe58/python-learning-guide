@@ -147,4 +147,9 @@ markdown_extensions:
   - attr_list
   - md_in_html
 
+extra:
+  analytics:
+    provider: google
+    property: G-YQB1YRXLFN
+
 copyright: Copyright &copy; 2025 Python 学习知识库
