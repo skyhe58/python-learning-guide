@@ -1,0 +1,38 @@
+# GitHub Actions: 自动构建并部署 MkDocs 站点到 GitHub Pages
+name: Deploy MkDocs
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 代码
+        uses: actions/checkout@v4
+
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 缓存 pip 依赖
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-mkdocs-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-mkdocs-
+
+      - name: 安装 MkDocs 及插件
+        run: |
+          pip install mkdocs-material>=9.5.0
+          pip install mkdocs-mermaid2-plugin>=1.1.0
+
+      - name: 构建并部署到 GitHub Pages
+        run: mkdocs gh-deploy --force
