@@ -1,0 +1,29 @@
+# 虚拟环境
+venv/
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# MkDocs 构建输出
+site/
+
+# MkDocs 配置和部署相关
+mkdocs.yml
+DEPLOY.md
+MkDocs_DEPLOY.md
+.github/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 环境变量
+.env

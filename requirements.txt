@@ -1,0 +1,59 @@
+# ============================================================
+# Python 学习知识库 — 项目级汇总依赖
+# ============================================================
+# 按模块分组，可按需安装。各模块目录下也有独立的 requirements.txt。
+# Python 版本要求: >= 3.9
+# ============================================================
+
+# ===== 基础模块（01-python-basics）=====
+# 无额外依赖，使用 Python 标准库
+
+# ===== 常用功能（02-common-features）=====
+pyyaml>=6.0
+requests>=2.31.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+flask>=3.0.0
+pytest>=7.4.0
+
+# ===== 小工具（03-mini-tools）=====
+openpyxl>=3.1.0
+pandas>=2.1.0
+PyPDF2>=3.0.0
+click>=8.1.0
+
+# ===== 框架与架构（04-frameworks）=====
+django>=4.2
+sqlalchemy>=2.0
+celery>=5.3.0
+pika>=1.3.0
+grpcio>=1.59.0
+
+# ===== 爬虫（05-crawler）=====
+beautifulsoup4>=4.12.0
+scrapy>=2.11.0
+selenium>=4.15.0
+playwright>=1.40.0
+
+# ===== AI 应用（06-ai-apps）=====
+numpy>=1.26.0
+# pandas>=2.1.0  # 已在小工具模块中声明
+matplotlib>=3.8.0
+openai>=1.3.0
+langchain>=0.1.0
+chromadb>=0.4.0
+transformers>=4.35.0
+
+# ===== 计算机视觉（07-yolo-cv）=====
+opencv-python>=4.8.0
+ultralytics>=8.0.0
+
+# ===== 知识图谱工具（tools/）=====
+pyecharts>=2.0.0
+
+# ===== MkDocs 在线部署 =====
+mkdocs-material>=9.5.0
+mkdocs-mermaid2-plugin>=1.1.0
+
+# ===== 测试依赖 =====
+hypothesis>=6.92.0

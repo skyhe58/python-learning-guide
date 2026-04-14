@@ -1,0 +1,7 @@
+# 常用功能模块依赖
+pyyaml>=6.0
+requests>=2.31.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+flask>=3.0.0
+pytest>=7.4.0
