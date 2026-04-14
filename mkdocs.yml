@@ -1,6 +1,6 @@
 # Python 学习知识库 - MkDocs 配置
 site_name: Python 学习知识库
-site_description: Python 系统学习知识库
+site_description: 面向 Java 开发者的 Python 系统学习知识库
 site_author: Python Learning Guide
 site_url: ""
 docs_dir: "docs"
@@ -38,6 +38,89 @@ theme:
 
 nav:
   - 首页: index.md
+  - 贡献指南: CONTRIBUTING.md
+  - 🟦 第一阶段 - Python 基础:
+    - 模块概览: 01-python-basics/README.md
+    - 环境搭建: 01-python-basics/01-environment-setup/README.md
+    - 数据类型与变量: 01-python-basics/02-data-types/README.md
+    - 控制流: 01-python-basics/03-control-flow/README.md
+    - 函数与装饰器: 01-python-basics/04-functions-decorators/README.md
+    - 面向对象: 01-python-basics/05-oop/README.md
+    - 模块与包管理: 01-python-basics/06-modules-packages/README.md
+    - 异常处理: 01-python-basics/07-exception-handling/README.md
+    - 文件操作: 01-python-basics/08-file-operations/README.md
+    - 推导式与生成器: 01-python-basics/09-comprehensions-generators/README.md
+    - Java 与 Python 差异: 01-python-basics/10-java-python-diff/README.md
+    - 综合项目 - 通讯录: 01-python-basics/project-contact-book/README.md
+    - 速查卡片: 01-python-basics/cheatsheet.md
+  - 🟩 第二阶段 - 常用功能:
+    - 模块概览: 02-common-features/README.md
+    - 正则表达式: 02-common-features/01-regex/README.md
+    - 日期时间处理: 02-common-features/02-datetime/README.md
+    - 数据格式处理: 02-common-features/03-data-formats/README.md
+    - 数据库操作: 02-common-features/04-database/README.md
+    - HTTP API 开发: 02-common-features/05-http-api/README.md
+    - 单元测试: 02-common-features/06-testing/README.md
+    - 日志管理: 02-common-features/07-logging/README.md
+    - 速查卡片: 02-common-features/cheatsheet.md
+  - 🟩 第二阶段 - 小工具开发:
+    - 模块概览: 03-mini-tools/README.md
+    - 文件批量处理: 03-mini-tools/01-file-batch/README.md
+    - Excel/CSV 处理: 03-mini-tools/02-excel-csv/README.md
+    - PDF 操作: 03-mini-tools/03-pdf-tools/README.md
+    - 自动化脚本: 03-mini-tools/04-automation/README.md
+    - 命令行工具: 03-mini-tools/05-cli-tools/README.md
+    - 速查卡片: 03-mini-tools/cheatsheet.md
+  - 🟧 第三阶段 - 框架与架构:
+    - 模块概览: 04-frameworks/README.md
+    - Web 框架: 04-frameworks/01-web-frameworks/README.md
+    - 异步与任务队列: 04-frameworks/02-async-task-queue/README.md
+    - ORM 框架: 04-frameworks/03-orm/README.md
+    - 消息队列: 04-frameworks/04-message-queue/README.md
+    - 微服务架构: 04-frameworks/05-microservice/README.md
+    - 定时任务: 04-frameworks/06-scheduler/README.md
+    - 架构模式: 04-frameworks/07-architecture-patterns/README.md
+    - 技术栈选型指南: 04-frameworks/tech-stack-guide.md
+    - 速查卡片: 04-frameworks/cheatsheet.md
+  - 🟥 第四阶段 - 爬虫:
+    - 模块概览: 05-crawler/README.md
+    - HTTP 与 requests: 05-crawler/01-http-requests/README.md
+    - HTML 解析: 05-crawler/02-html-parsing/README.md
+    - 动态页面爬取: 05-crawler/03-dynamic-pages/README.md
+    - Scrapy 框架: 05-crawler/04-scrapy/README.md
+    - 反爬策略: 05-crawler/05-anti-crawl/README.md
+    - 数据存储: 05-crawler/06-data-storage/README.md
+    - 综合项目 - 爬虫: 05-crawler/project-full-crawler/README.md
+    - 速查卡片: 05-crawler/cheatsheet.md
+  - 🟥 第四阶段 - AI 应用:
+    - 模块概览: 06-ai-apps/README.md
+    - NumPy 基础: 06-ai-apps/01-numpy-basics/README.md
+    - Pandas 基础: 06-ai-apps/02-pandas-basics/README.md
+    - Matplotlib 绘图: 06-ai-apps/03-matplotlib/README.md
+    - Jupyter Notebook: 06-ai-apps/04-jupyter/README.md
+    - LLM API 调用: 06-ai-apps/05-llm-api/README.md
+    - Prompt Engineering: 06-ai-apps/06-prompt-engineering/README.md
+    - LangChain: 06-ai-apps/07-langchain/README.md
+    - RAG 检索增强生成: 06-ai-apps/08-rag/README.md
+    - AI Agent 智能体: 06-ai-apps/09-ai-agent/README.md
+    - 实用 AI 应用: 06-ai-apps/10-practical-ai/README.md
+    - 综合项目 - RAG 问答: 06-ai-apps/project-rag-qa/README.md
+    - 速查卡片: 06-ai-apps/cheatsheet.md
+  - 🟥 第四阶段 - 计算机视觉:
+    - 模块概览: 07-yolo-cv/README.md
+    - OpenCV 基础: 07-yolo-cv/01-opencv-basics/README.md
+    - YOLO 介绍: 07-yolo-cv/02-yolo-intro/README.md
+    - YOLO 目标检测: 07-yolo-cv/03-yolo-detection/README.md
+    - YOLO 训练与微调: 07-yolo-cv/04-yolo-training/README.md
+    - 图像处理: 07-yolo-cv/05-image-processing/README.md
+    - 应用案例: 07-yolo-cv/06-applications/README.md
+    - 速查卡片: 07-yolo-cv/cheatsheet.md
+  - 🟪 面试与复习:
+    - 模块概览: 08-interview/README.md
+    - 初级面试题: 08-interview/01-basic/README.md
+    - 中级面试题: 08-interview/02-intermediate/README.md
+    - 高级面试题: 08-interview/03-advanced/README.md
+    - Java-Python 差异速查表: 08-interview/java-python-diff-cheatsheet.md
 
 plugins:
   - search:

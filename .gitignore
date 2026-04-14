@@ -10,11 +10,8 @@ __pycache__/
 # MkDocs 构建输出
 site/
 
-# MkDocs 配置和部署相关
-mkdocs.yml
-DEPLOY.md
+# 部署说明（本地参考用）
 MkDocs_DEPLOY.md
-.github/
 
 # IDE
 .idea/
