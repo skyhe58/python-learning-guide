@@ -13,6 +13,9 @@ site/
 # 部署说明（本地参考用）
 MkDocs_DEPLOY.md
 
+# 贡献指南
+CONTRIBUTING.md
+
 # IDE
 .idea/
 .vscode/

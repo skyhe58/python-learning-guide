@@ -38,7 +38,6 @@ theme:
 
 nav:
   - 首页: index.md
-  - 贡献指南: CONTRIBUTING.md
   - 🟦 第一阶段 - Python 基础:
     - 模块概览: 01-python-basics/README.md
     - 环境搭建: 01-python-basics/01-environment-setup/README.md
