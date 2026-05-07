@@ -197,6 +197,14 @@ venv\Scripts\activate     # Windows
 pip install -r requirements.txt
 ```
 
+## 建议与支持
+
+如果本知识库对你有帮助，欢迎 [提 Issue](https://github.com/skyhe58/python-learning-guide/issues) 提出建议，或请作者喝杯咖啡 ☕
+
+| 微信支付 | 支付宝 |
+|:---:|:---:|
+| ![微信支付](assets/wechat_pay.png){: style="width:200px"} | ![支付宝](assets/alipay.png){: style="width:200px"} |
+
 ## 许可证
 
 本项目仅供学习和个人使用。
